@@ -4,8 +4,17 @@
   <h3 class="terms__title capitalize h3">{{ $title }}</h3>
 </header>
 <main class="terms main">
-  <div class="sidebar">
+
+  <div class="terms__list">
+    <div class="taxo-root">
       {{ partial "search/site-search" . }}
+      {{ partial "search/search-result-desktop" . }}
+    {{ partial "taxonomy/taxonomy-tags" . }}
+    {{ partial "taxonomy/taxonomy-categories" . }}
+    {{ partial "taxonomy/taxonomy-series" . }}
+    </div>
+  </div>
+  <div class="sidebar">
       {{ partial "sidebar/custom-home" . }}
       {{ partial "sidebar/list/posts-by-order" . }}
 
@@ -30,15 +39,12 @@
           {{ end }}
       {{ end }}
   </div>
-  <div class="taxo-root">
-  {{ partial "taxonomy/taxonomy-tags" . }}
-  {{ partial "taxonomy/taxonomy-categories" . }}
-  {{ partial "taxonomy/taxonomy-series" . }}
-  </div>
 
 </main>
 <aside class="hide">
   {{ partial "search/site-search" . }}
 </aside>
 {{ partial "script/taxo-script" . }}
+{{ partial "script/sidebar-script" . }}
+{{ partial "script/home-script" . }}
 {{ end }}
