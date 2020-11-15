@@ -6,22 +6,26 @@
   </div>
 </header>
 
+{{ $root := . }}
 {{ if in (lower .Params.Mode) "one" }}
 <main class="gallery main">
   <div class="grid gallery__container">
     <div class="grid-sizer"></div>
-    {{ $basename := (replace .File.Dir "\\" "/") }}
-    {{ range .Params.Images }}
-    <div class="grid-item">
-      <img src="{{ $basename | relURL }}{{ .image }}" alt="{{ print .caption }}" />
-      <div class="grid-item__desc hide">
-        <span class="grid-item__desc--text">
-          {{ .caption }}
-        </span>
+    {{ if .File.Dir }}
+      {{ $basename := (replace .File.Dir "\\" "/") }}
+      {{ range .Params.Images }}
+      <div class="grid-item">
+        <img src="{{ $basename | relURL }}{{ .image }}" alt="{{ print .caption }}" />
+        <div class="grid-item__desc hide">
+          <span class="grid-item__desc--text">
+            <a href={{ .url }}>{{ .caption }}</a>
+          </span>
+        </div>
       </div>
-    </div>
+      {{ end }}
     {{ end }}
   </div>
+  {{ partial "pagination/pagination-single" . }}
 </main>
 
 {{ else if eq (lower .Params.mode) "remote" }}
@@ -33,37 +37,34 @@
       <img src="{{ .image }}" alt="{{ print .caption }}" />
       <div class="grid-item__desc hide">
         <span class="grid-item__desc--text">
-          {{ .caption }}
+          <a href={{ .url }}>{{ .caption }}</a>
         </span>
       </div>
     </div>
     {{ end }}
   </div>
+  {{ partial "pagination/pagination-single" . }}
 </main>
 
 {{ else }}
 <main class="gallery main">
   <div class="grid gallery__container">
     <div class="grid-sizer"></div>
-    {{ $basename := (replace .File.Dir "\\" "/") }}
-    {{ $galleryFolderPath := (print "./static/" $basename) }}
-    {{ if (fileExists $galleryFolderPath) }}
-      {{ range readDir $galleryFolderPath }}
-        <div class="grid-item">
-          <img src="{{ $basename | relURL }}{{ .Name }}" alt="{{ index (split .Name ".") 0 }}" />
-          <div class="grid-item__desc hide">
-            <span class="grid-item__desc--text">
-              {{ index (split .Name ".") 0 }}
-            </span>
-          </div>
+    {{ if .File.Dir }}
+      {{ $basename := (replace .File.Dir "\\" "/") }}
+      {{ range (readDir (print "./static/" $basename)) }}
+      <div class="grid-item">
+        <img src="{{ $basename | relURL }}{{ .Name }}" alt="{{ index (split .Name ".") 0 }}"/>
+        <div class="grid-item__desc hide">
+          <span class="grid-item__desc--text">
+            {{ index (split .Name ".") 0 }}
+          </span>
         </div>
+      </div>
       {{ end }}
-    {{ else }}
-    <div class="basicflex">
-      Make a gallery folder first.
-    </div>
     {{ end }}
   </div>
+  {{ partial "pagination/pagination-single" . }}
 </main>
 
 {{ end }}
