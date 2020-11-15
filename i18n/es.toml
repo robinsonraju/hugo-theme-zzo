@@ -1,110 +1,110 @@
 [search-placeholder]
-other = "Search"
+other = "buscar"
 
 [summary-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [reading-time]
-other = "min read"
+other = "minutos lectura"
 
 [tags]
-other = "Tags"
+other = "Etiquetas"
 
 [categories]
-other = "Categories"
+other = "Categorías"
 
 [series]
-other = "Series"
+other = "Serie"
 
 [archive-dateformat]
-other = "Jan 2"
+other = "2015-01-21"
 
 [talks-dateformat]
-other = "Jan 2"
+other = "2006-01-02"
 
 [single-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [pub-dateformat]
 other = "2006-01-02"
 
 [resume-dateformat]
-other = "Jan, 2006"
+other = "2006-01-02"
 
 [single-related]
-other = "See Also"
+other = "Ver también"
 
 [single-writtenBy]
-other = "WRITTEN BY"
+other = "Escrito por"
 
 [toc-label]
-other = "What's on this Page"
+other = "Qué hay en esta página"
 
 [counter-site-pv]
-other = "Total views"
+other = "Visitas totales"
 
 [counter-site-uv]
-other = "Total visitors"
+other = "Visitantes totales"
 
 [counter-page-pv]
-other = "views"
+other = "vistas"
 
 [donate-message]
-other = "Support the author with"
+other = "Apoya al autor con"
 
 [share-message]
-other = "Share on"
+other = "compartir en"
 
 [contact-name]
-other = "Name"
+other = "Nombre"
 
 [contact-email]
-other = "Email"
+other = "Correo electronico"
 
 [contact-tel]
 other = "Tel"
 
 [contact-file]
-other = "File"
+other = "Archivo"
 
 [contact-message]
-other = "Message"
+other = "Mensaje"
 
 [contact-send]
-other = "Send"
+other = "Enviar"
 
 [contact-browse]
-other = "Browse"
+other = "Examinar"
 
 [tooltip-home]
-other = "Home"
+other = "inicio"
 
 [tooltip-written]
-other = "Written At"
+other = "Escrito en"
 
 [tooltip-modified]
-other = "Modified At"
+other = "Modificado en"
 
 [tooltip-reading-time]
-other = "Reading Time"
+other = "Tiempo de lectura"
 
 [showcase-overview]
-other = "Overview"
+other = "Resumen"
 
 [showcase-pinned]
 other = "Pinned"
 
 [nojs-message]
-other = "This page looks best with JavaScript enabled"
+other = "Esta pagina se ve mejor con JavaScript habilitado"
 
 [posts-by-order]
-other = "TOP POSTS"
+other = "Publicaciones principlaes"
 
 [skin-dark]
-other = "dark"
+other = "oscuro"
 
 [skin-light]
-other = "light"
+other = "claro"
 
 [skin-hacker]
 other = "hacker"

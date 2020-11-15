@@ -1,29 +1,29 @@
 [search-placeholder]
-other = "Search"
+other = "Cerca"
 
 [summary-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [reading-time]
-other = "min read"
+other = "Minuts lectura"
 
 [tags]
-other = "Tags"
+other = "Etiquetes"
 
 [categories]
 other = "Categories"
 
 [series]
-other = "Series"
+other = "Sèrie"
 
 [archive-dateformat]
-other = "Jan 2"
+other = "2006-01-02"
 
 [talks-dateformat]
-other = "Jan 2"
+other = "2006-01-02"
 
 [single-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [pub-dateformat]
 other = "2006-01-02"
@@ -32,79 +32,79 @@ other = "2006-01-02"
 other = "Jan, 2006"
 
 [single-related]
-other = "See Also"
+other = "Veure també"
 
 [single-writtenBy]
-other = "WRITTEN BY"
+other = "Escrit per"
 
 [toc-label]
-other = "What's on this Page"
+other = "Què hi ha en aquesta pàgina"
 
 [counter-site-pv]
-other = "Total views"
+other = "Visualitzacions totals"
 
 [counter-site-uv]
-other = "Total visitors"
+other = "Total de visitants"
 
 [counter-page-pv]
-other = "views"
+other = "visualitzacions"
 
 [donate-message]
-other = "Support the author with"
+other = "Dóna suport a l'autor amb"
 
 [share-message]
-other = "Share on"
+other = "Comparteix a"
 
 [contact-name]
-other = "Name"
+other = "Nam"
 
 [contact-email]
-other = "Email"
+other = "Correu electrònic"
 
 [contact-tel]
 other = "Tel"
 
 [contact-file]
-other = "File"
+other = "Arxiu"
 
 [contact-message]
-other = "Message"
+other = "Missatge"
 
 [contact-send]
-other = "Send"
+other = "Envia"
 
 [contact-browse]
-other = "Browse"
+other = "Cerca"
 
 [tooltip-home]
-other = "Home"
+other = "Inici"
 
 [tooltip-written]
-other = "Written At"
+other = "Escrit a"
 
 [tooltip-modified]
-other = "Modified At"
+other = "Modificat a"
 
 [tooltip-reading-time]
-other = "Reading Time"
+other = "Temps de lectura"
 
 [showcase-overview]
-other = "Overview"
+other = "Visió general"
 
 [showcase-pinned]
-other = "Pinned"
+other = "Fixat"
 
 [nojs-message]
-other = "This page looks best with JavaScript enabled"
+other = "Aquesta pàgina té millor aspecte amb JavaScript habilitat"
 
 [posts-by-order]
-other = "TOP POSTS"
+other = "Publicacions principals"
 
 [skin-dark]
-other = "dark"
+other = "fosc"
 
 [skin-light]
-other = "light"
+other = "clara"
 
 [skin-hacker]
 other = "hacker"

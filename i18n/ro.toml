@@ -1,110 +1,110 @@
 [search-placeholder]
-other = "Search"
+other = "Căută"
 
 [summary-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [reading-time]
-other = "min read"
+other = "minute de citit"
 
 [tags]
-other = "Tags"
+other = "Etichete"
 
 [categories]
-other = "Categories"
+other = "Categorii"
 
 [series]
-other = "Series"
+other = "Seria"
 
 [archive-dateformat]
-other = "Jan 2"
+other = "2006-01-02"
 
 [talks-dateformat]
-other = "Jan 2"
+other = "2006-01-02"
 
 [single-dateformat]
-other = "Jan 2, 2006"
+other = "2006-01-02"
 
 [pub-dateformat]
 other = "2006-01-02"
 
 [resume-dateformat]
-other = "Jan, 2006"
+other = "2006-01-02"
 
 [single-related]
-other = "See Also"
+other = "Vezi și"
 
 [single-writtenBy]
-other = "WRITTEN BY"
+other = "Scris de"
 
 [toc-label]
-other = "What's on this Page"
+other = "Ce este pe această pagină"
 
 [counter-site-pv]
-other = "Total views"
+other = "Vizualizări totale"
 
 [counter-site-uv]
-other = "Total visitors"
+other = "Total vizitatori"
 
 [counter-page-pv]
-other = "views"
+other = "vizualizări"
 
 [donate-message]
-other = "Support the author with"
+other = "Sprijiniți autorul cu"
 
 [share-message]
-other = "Share on"
+other = "împărtăşi pe"
 
 [contact-name]
-other = "Name"
+other = "Nume"
 
 [contact-email]
-other = "Email"
+other = "poştă electronică"
 
 [contact-tel]
 other = "Tel"
 
 [contact-file]
-other = "File"
+other = "Fișier"
 
 [contact-message]
-other = "Message"
+other = "Mesaj"
 
 [contact-send]
-other = "Send"
+other = "Trimite"
 
 [contact-browse]
-other = "Browse"
+other = "Răsfoire"
 
 [tooltip-home]
-other = "Home"
+other = "Start"
 
 [tooltip-written]
-other = "Written At"
+other = "Scris în"
 
 [tooltip-modified]
-other = "Modified At"
+other = "Modificat în"
 
 [tooltip-reading-time]
-other = "Reading Time"
+other = "Timpul de citire"
 
 [showcase-overview]
-other = "Overview"
+other = "Prezentare generală"
 
 [showcase-pinned]
-other = "Pinned"
+other = "Fixat"
 
 [nojs-message]
-other = "This page looks best with JavaScript enabled"
+other = "Această pagină arată cel mai bine cu JavaScript activat"
 
 [posts-by-order]
-other = "TOP POSTS"
+other = "Publicații principale"
 
 [skin-dark]
-other = "dark"
+other = "închis"
 
 [skin-light]
-other = "light"
+other = "luminos"
 
 [skin-hacker]
 other = "hacker"
